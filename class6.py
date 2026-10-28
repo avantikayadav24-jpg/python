@@ -1,29 +1,14 @@
-print("=== smart school day planner ===")
-print("Answer 3 quick questions and I will plan your day!\n")
+#Part - 1
+print("My daily routine")
 
-day = input("What day is it? (monday to sunday): ").strip().capitalize()
-weather = input("What is the weather? (sunny / rainy / cloudy) : ").strip().lower()
-homework = input("Is your homework done? (yes / no): ").strip().lower()
+#PART- 2 ("4 routine steps")
+print("7:OO - Get up and get ready and eat breakfast")
+print("8:30 - Go to school")
+print("4:00 - Play games and exercise")
+print("5:00 - Do homework and study")
 
+#PART- 3 ("Weekly total")
+print("Total homework hours in a week = 21h")
 
-
-
-if day in ("Saturday","Sunday"):
-    print("weekend - enjoy your free time!")
-elif day =="Monday":
-    print("First day of the week. Pack your weekly planner.")
-elif day =="Friday":
-    print("Last school day. Return library school books today.")
-elif day in ("Tuesday","Wednesday", "Thursday"):
-    print("Regular school day. Stay focused!")
-else:
-    print("Day not recognised. Please check the spelling.")
-
-if weather == "sunny" and homework =="yes":
-    print("After school: Head to the park - great weather and homework is done!")
-
-if not (homework == "yes"):
-    print("homework   : not done yet.Finish it before going out!")
-
-if weather == "rainy" or weather == "cloudy":
-    print("weather tip : Pack your umbrella - it may get wet outside.")
+#PART- 4 ("Comments")
+print("Program completed!")
