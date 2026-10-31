@@ -1,14 +1,29 @@
-#Part - 1
-print("My daily routine")
+#PART - 1
+import keyword
 
-#PART- 2 ("4 routine steps")
-print("7:OO - Get up and get ready and eat breakfast")
-print("8:30 - Go to school")
-print("4:00 - Play games and exercise")
-print("5:00 - Do homework and study")
+#PART - 2
+person_name = input("Enter your name")
+goal_name = input("Enter your goal")
+target_month = input("Enter the month you want to reach")
 
-#PART- 3 ("Weekly total")
-print("Total homework hours in a week = 21h")
+#PART - 3
+daily_min = 40
 
-#PART- 4 ("Comments")
-print("Program completed!")
+#PART - 4
+print("\nMy personal goal plan\n")
+
+#PART - 5
+print("Name:", person_name)
+print("Goal:", goal_name)
+print("Target month:", target_month)
+print("Daily practice:", daily_min, "40")
+
+#PART - 6
+print("Status:", end="")
+print("Not started")
+print("Reminder:", end="")
+print("Practice everyday!")
+
+#PART - 7
+print("In one sentence:", person_name, "wants to learn", goal_name, "reach", target_month, "practise", daily_min, "minutes everyday")
+
